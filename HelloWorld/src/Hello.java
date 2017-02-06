@@ -8,5 +8,7 @@ public class Hello {
 		System.out.println("Good bye");
 		
 		System.out.println("This should cause merge conflict");
+		System.out.println("Now it should");
+		
 	}
 }
