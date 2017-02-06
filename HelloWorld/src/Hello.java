@@ -9,6 +9,11 @@ public class Hello {
 		
 		System.out.println("This should cause merge conflict");
 		System.out.println("Now it should");
+                
+                Date dateFormat = new SimpleDateFormat("MM/dd/YYYY");
+		Date currDate = new Date();
+		System.out.println(dateFormat.format(currDate));
+
 		
 	}
 }
