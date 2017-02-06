@@ -1,3 +1,6 @@
+import java.util.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 
 public class Hello {
 
@@ -9,6 +12,11 @@ public class Hello {
 		
 		System.out.println("This should cause merge conflict");
 		System.out.println("Now it should");
+                
+                Date dateFormat = new SimpleDateFormat("MM/dd/YYYY");
+		Date currDate = new Date();
+		System.out.println(dateFormat.format(currDate));
+
 		
 	}
 }
